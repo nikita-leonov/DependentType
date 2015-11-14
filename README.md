@@ -14,4 +14,4 @@ let step3 = step1 != !step2 && b1
 let result: DependentType<Bool, True> = !step3
 ```
 
-Further expending of DependentType is not feasible due to Swift limitations.
+Further expending of DependentType to other types is not feasible due to Swift limitations.
