@@ -10,7 +10,8 @@ let step1 = !(b1&&b2)
 let step2 = step1 == !b1
 let step3 = step1 != !step2 && b1
 
-let result: DependentType<Bool, True> = !step3 //Result guaranteed to be True at compile time.
+//Result guaranteed to be True at compile time.
+let result: DependentType<Bool, True> = !step3
 ```
 
 Further expending of DependentType is not feasible due to Swift limitations.
