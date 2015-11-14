@@ -3,7 +3,7 @@
 Playground with generic Swift DependentType implementation with support of boolean computations.
 
 ```
-let b1 = DependentType<Bool, True>()
+let b1 = DependentType<Bool, False>()
 let b2 = DependentType<Bool, True>()
 
 let step1 = !(b1&&b2)
