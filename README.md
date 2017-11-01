@@ -25,6 +25,5 @@ let three = two + one
 
 let comparCorrectExpectation: Type<Bool, True> = two == two
 let comparWrongExpectation: Type<Bool, False> = two == three
-```
 
 There are also some first steps for control flow. Current only `if () then {} else {}` available. While the use case for such code is quite limited an implementation is something that some sophisticated developer can be curious about check [Depends/ControlFlow.swift](https://github.com/nikita-leonov/DependentType/blob/master/Depends/ControlFlow.swift).
